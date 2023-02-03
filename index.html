@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphaelo pizza</title>	
+	<link rel="icon" href="Images/icon.png"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@500&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/80c8ba4521.js" crossorigin="anonymous"></script>
+    <!-- <script src="JS/fontawesome/all.min.js"></script> -->
+    <!-- jQuery -->
+    <script src="jQuery/jquery.js"></script>
+</head>
+<body>
+    <div class="loading"><img src="Images/piz.gif" alt="" class="lod"></div>
+    <header id="header" class="div">
+        <div class="logo">
+            <img src="Images/logo.jpg" alt="" style="width: 100%;">
+        </div>
+
+        <!-- Toggle responsive -->
+        <button class="toggle" onclick="myResponse()"><i class="fa-solid fa-bars" id="toggle"></i></button>
+
+        <ul class="nav-links">
+            <li><a href="/#home">   Acceuile        </a></li>
+            <li><a href="/#services">  Nos Services </a></li>
+            <li><a href="/#today">  Plat du jour    </a></li>
+            <li><a href="/#menu">   Menu            </a></li>
+        </ul>
+    </header>
+
+    <section id="home">          
+        <h1>RAPHAELO PIZZA</h1>
+        <h5>LA MEILLIEUR PIZZA</h5>          
+    </section>
+    <section id="services">
+        <h2>Nos Services</h2>
+        
+        <div class="block">
+            <div class="font">            
+                <i class="fa-sharp fa-solid fa-pizza-slice"></i>
+            </div>
+            Pizza et grilades
+        </div>
+        <div class="block">
+            <div class="font">            
+                <i class="fa-solid fa-wine-glass"></i>
+            </div>
+            Boisson fresh et glacer
+        </div>
+        <div class="block">
+            <div class="font">            
+                <i class="fa-solid fa-truck"></i>
+            </div>
+            Livrason a domicile
+        </div>
+    </section>
+    <hr>
+    <section id="today">
+        <h2>Plat du jour</h2>
+        <div class="today-content">
+            <img src="Images/dish4.jpg" alt="" srcset="">
+            <div class="text">
+                <h3>Poulet rautis</h3>
+                <h4>Du poulet assessone et rauti au feu de bois </h4>
+                <p>1500frs</p>    
+            </div>
+        </div>
+        
+    </section>
+    <hr>
+    <section id="menu" >
+        <h2>Menu</h2>
+        <h3>Pizza</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="Images/p7.jpg" alt="plat" srcset="" class="dish">
+                <h4>Pizza a la tomate</h4>
+                <p>2000frs</p>
+            </div>
+            <div class="card">
+                <img src="Images/p6.jpg" alt="plat" srcset="" class="dish">
+                <h4>Pizza a l'anana</h4>
+                <p>1500frs</p>
+            </div>
+            <div class="card">
+                <img src="Images/p5.jpg" alt="plat" srcset="" class="dish">
+                <h4>Pizza au peperaunie</h4>
+                <p>2200frs</p>
+            </div>    
+            <div class="card">
+                <img src="Images/p8.webp" alt="plat" srcset="" class="dish">
+                <h4>Pizza a la viande </h4>
+                <p>3000frs</p>
+            </div>    
+            <div class="card">
+                <img src="Images/p.webp" alt="plat" srcset="" class="dish">
+                <h4>Pizza a la viande </h4>
+                <p>3000frs</p>
+            </div>    
+        </div>
+
+        <h3>Plats</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="Images/dish4.jpg" alt="plat" srcset="" class="dish">
+                <h4>Poulet rauti</h4>
+                <p>1500frs</p>
+            </div>
+            <div class="card">
+                <img src="Images/dish1.jpg" alt="plat" srcset="" class="dish">
+                <h4>Pate a la mutarde</h4>
+                <p>1300frs</p>
+            </div>
+            <div class="card">
+                <img src="Images/dish5.jpg" alt="plat" srcset="" class="dish">
+                <h4>Humburger</h4>
+                <p>1500frs</p>
+            </div>    
+            <div class="card">
+                <img src="Images/dish.jpg" alt="plat" srcset="" class="dish">
+                <h4>Pate saute </h4>
+                <p>1600frs</p>
+            </div>    
+        </div>
+        
+        <h3>Boisson</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="Images/d1.jpg" alt="plat" srcset="" class="dish">
+                <h4>Cocacola</h4>
+                <p>800frs</p>
+            </div>
+            <div class="card">
+                <img src="Images/d2.jpg" alt="plat" srcset="" class="dish">
+                <h4>Smousi</h4>
+                <p>1000frs</p>
+            </div>
+            <div class="card">
+                <img src="Images/d3.jpg" alt="plat" srcset="" class="dish">
+                <h4>Jus d'Orange</h4>
+                <p>900frs</p>
+            </div>    
+            <div class="card">
+                <img src="Images/d4.jpg" alt="plat" srcset="" class="dish">
+                <h4>Jus de Pomme</h4>
+                <p>900frs</p>
+            </div>    
+        </div>
+    </section>
+    
+    <footer>
+        <a href="#home"><i class="fa-solid fa-location-dot"></i></a>
+        <a href="#home"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://www.facebook.com/tambong.stercy"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#home"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#homr"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <p>Ⓒ  copyrigth 2023<br/>
+            Tambong Stercy Takem</p>
+    </footer>
+</body>
+<script src="JS/index.js"></script>
+</html>
+
+<script> 
+    const element = document.querySelector(".bar");
+    
+    
+    function myFunction() {
+        var x = document.querySelector("header");
+
+        if (x.className === "div") {
+            x.className += " responsive";
+        } else {
+            x.className = "div";
+        }
+
+    }
+
+
+</script>
